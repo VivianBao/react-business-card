@@ -1,7 +1,8 @@
 import React from "react"
+import profilepic from "../images/logo512.png"
 
 export default function ProfilePic() {
   return(
-    <img src="./images/logo512.png" alt="profile pic"/>
+    <img className="profilepic" src={profilepic} alt="profile pic"/>
   )
 }

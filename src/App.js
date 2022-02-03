@@ -9,10 +9,10 @@ library.add(fab, faTwitterSquare,faInstagramSquare, faGithubSquare)
 
 export default function App() {
   return(
-    <>
+    <div className="container">
       <ProfilePic />
       <Main />
       <Footer />
-    </>
+    </div>
   )
 }

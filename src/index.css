@@ -1,3 +1,19 @@
 body {
   margin: 0;
+  color: white;
+  background-color: #33373d;
+}
+
+.container{
+  background-color: #1a1b22;
+  border-radius: 5px;
+  width: 250px;
+  margin: 2em 1em;
+  position: static;
+  overflow: hidden
+}
+.profile-pic{
+  height: auto;
+  width: 250px;
+  position:static;
 }

@@ -1,15 +1,16 @@
 import React from "react"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Main() {
   return (
     <main className="main-content">
-      <div className="main-content--name">
-        <h2>Vivian Bow</h2>
-        <h4>Fullstack Developer</h4>
+      <div className="main-content--name-sec">
+        <h2 className="main-content--name">Vivian Bow</h2>
+        <h4 className="main-content--title">Fullstack Developer</h4>
       </div>
       <div className="main-content--buttons">
-        <button>Email</button>
-        <button>Linkedln</button>
+        <a href="#" className="button-email"><span className="buttons-icon"><FontAwesomeIcon icon="envelope" /></span>Email</a>
+        <a href="#" className="button-linkedin"><span className="buttons-icon"><FontAwesomeIcon icon={['fab', 'linkedin']} /></span>Linkedln</a>
       </div>
       <div className="main-content--about">
         <h3>About</h3>

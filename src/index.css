@@ -2,6 +2,7 @@ body {
   margin: 0;
   color: white;
   background-color: #33373d;
+  font-family: inter, san-serif;
 }
 
 .container{
@@ -16,4 +17,57 @@ body {
   height: auto;
   width: 250px;
   position:static;
+}
+
+/* main */
+/* name-section */
+.main-content--name-sec{
+    text-align: center;
+}
+
+.main-content--name{
+  margin-bottom: 5px;
+}
+
+.main-content--title{
+  color: #f4bf9a;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+/* buttons */
+.main-content--buttons{
+  margin: 0;
+  text-align: center;
+}
+.main-content--buttons > a{
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.main-content--buttons > a:hover {
+
+}
+
+.buttons-icon {
+  margin: 5px;
+}
+
+.button-email{
+  background-color: white;
+  color:#374151;
+  padding: 8px 10px;
+  width: 80px;
+}
+
+
+.button-linkedin{
+  background-color: #5093e2;
+  padding: 8px 10px;
+  width: 80px;
+  color: white;
 }

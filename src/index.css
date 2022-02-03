@@ -1,3 +1,121 @@
 body {
   margin: 0;
+  color: white;
+  background-color: #33373d;
+  font-family: inter, san-serif;
+}
+
+.container{
+  background-color: #1a1b22;
+  border-radius: 8px;
+  width: 250px;
+  margin: 2em 1em;
+  position: static;
+  overflow: hidden
+}
+.profile-pic{
+  height: auto;
+  width: 250px;
+  position:static;
+}
+
+/* main */
+/* name-section */
+.main-content--name-sec{
+    text-align: center;
+}
+
+.main-content--name{
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.main-content--title{
+  color: #f4bf9a;
+  font-size: 12px;
+  font-weight: 200;
+  margin-top: 0;
+}
+
+/* buttons */
+.main-content--buttons{
+  margin: 0;
+  text-align: center;
+}
+.main-content--buttons > a{
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px;
+  font-size: 12px;
+}
+
+.main-content--buttons > a:hover {
+
+}
+
+.buttons-icon {
+  margin: 5px;
+}
+
+.button-email{
+  background-color: white;
+  color:#374151;
+  padding: 8px 10px;
+  width: 80px;
+}
+
+
+.button-linkedin{
+  background-color: #5093e2;
+  padding: 8px 10px;
+  width: 80px;
+  color: white;
+}
+
+/* intro */
+.main-content--intro{
+  margin-left: 15px;
+  font-size: 12px;
+  max-width: 200px;
+}
+
+.intro-title, .intro-content {
+  margin: 5px;
+}
+
+.intro-title{
+  font-weight: 600;
+}
+
+.intro-content{
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.intro-about, .intro-interests{
+  margin-top: 15px;
+}
+
+
+/* footer */
+.footer{
+  background-color: #161619;
+  margin-top: 30px;
+}
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+}
+
+.social-icon > a {
+  text-decoration: none;
+  color: #878590;
+}
+
+.social-icon{
+  font-size: 1.5em;
+  margin: 10px;
 }

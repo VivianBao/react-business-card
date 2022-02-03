@@ -4,13 +4,17 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Footer() {
   return (
     <footer className="footer">
-      <p>Find me at:</p>
-      {/* <FontAwesomeIcon icon={['fab', 'twitter']} />
-      <FontAwesomeIcon icon={['fab', 'instagram']} />
-      <FontAwesomeIcon icon={['fab', 'github']} /> */}
-      <FontAwesomeIcon icon={['fab', 'twitter-square']} />
-      <FontAwesomeIcon icon={['fab', 'instagram-square']} />
-      <FontAwesomeIcon icon={['fab', 'github-square']} />
+      <div className="footer-icons">
+        <div className='social-icon'>
+          <a href="#"><FontAwesomeIcon icon={['fab', 'twitter-square']} /></a>
+        </div>
+        <div className='social-icon'>
+          <a href="#"><FontAwesomeIcon icon={['fab', 'instagram-square']} /></a>
+        </div>
+        <div className='social-icon'>
+          <a href="#"><FontAwesomeIcon icon={['fab', 'github-square']} /></a>
+        </div>
+      </div>
     </footer>
   )
 }

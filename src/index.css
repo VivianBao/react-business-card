@@ -27,12 +27,13 @@ body {
 
 .main-content--name{
   margin-bottom: 5px;
+  font-weight: 600;
 }
 
 .main-content--title{
   color: #f4bf9a;
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 200;
   margin-top: 0;
 }
 
@@ -70,4 +71,28 @@ body {
   padding: 8px 10px;
   width: 80px;
   color: white;
+}
+
+/* intro */
+.main-content--intro{
+  margin-left: 15px;
+  font-size: 12px;
+  max-width: 200px;
+}
+
+.intro-title, .intro-content {
+  margin: 5px;
+}
+
+.intro-title{
+  font-weight: 600;
+}
+
+.intro-content{
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.intro-about, .intro-interests{
+  margin-top: 15px;
 }

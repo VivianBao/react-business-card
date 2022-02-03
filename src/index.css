@@ -7,7 +7,7 @@ body {
 
 .container{
   background-color: #1a1b22;
-  border-radius: 5px;
+  border-radius: 8px;
   width: 250px;
   margin: 2em 1em;
   position: static;
@@ -95,4 +95,27 @@ body {
 
 .intro-about, .intro-interests{
   margin-top: 15px;
+}
+
+
+/* footer */
+.footer{
+  background-color: #161619;
+  margin-top: 30px;
+}
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+}
+
+.social-icon > a {
+  text-decoration: none;
+  color: #878590;
+}
+
+.social-icon{
+  font-size: 1.5em;
+  margin: 10px;
 }

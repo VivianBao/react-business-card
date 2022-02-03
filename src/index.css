@@ -9,7 +9,7 @@ body {
   background-color: #1a1b22;
   border-radius: 8px;
   width: 250px;
-  margin: 2em 1em;
+  margin: 2em auto;
   position: static;
   overflow: hidden
 }
